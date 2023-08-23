@@ -1,0 +1,66 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply styles to the whole document */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 60px 0;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.search-result img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+    max-height: 300px; /* Set a maximum height to maintain aspect ratio */
+    object-fit: cover;
+}
+
+
+#search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #138865;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Search result styles */
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0
